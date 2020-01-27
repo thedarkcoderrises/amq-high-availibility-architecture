@@ -1,7 +1,7 @@
 ![](connecting-applications-everywhere-with-activemq-35-638.jpg)
 
 
-# Commands
+# Commands :
 ```
 Abhijeets-MacBook-Pro:Master-Slave javabrain$ pwd
 /Users/javabrain/Documents/apps/Master-Slave
@@ -29,3 +29,13 @@ Abhijeets-MacBook-Pro:Master-Slave javabrain$
 ```
 
 ![](Screen%20Shot%202020-01-27%20at%2010.00.51%20PM.png)
+
+
+# Total process running :
+```
+Abhijeets-MacBook-Pro:Master-Slave javabrain$ ps -ef | grep activemq
+  502   995     1   0  9:57PM ttys000    0:11.87 /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/java -Xms1G -Xmx1G -Djava.util.logging.config.file=logging.properties -Dcom.sun.management.jmxremote -Djava.io.tmpdir=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker1/tmp -Dactivemq.classpath=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker1/conf; -Dactivemq.home=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0 -Dactivemq.base=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker1 -Dactivemq.conf=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker1/conf -Dactivemq.data=/Users/javabrain/Documents/apps/Master-Slave/sharedData-1 -Dactivemq.logFile=broker-1 -jar /Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/bin/activemq.jar start
+  502  1015     1   0  9:57PM ttys000    0:10.94 /Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/bin/java -Xms1G -Xmx1G -Djava.util.logging.config.file=logging.properties -Dcom.sun.management.jmxremote -Djava.io.tmpdir=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker2/tmp -Dactivemq.classpath=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker2/conf; -Dactivemq.home=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0 -Dactivemq.base=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker2 -Dactivemq.conf=/Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/cluster/broker2/conf -Dactivemq.data=/Users/javabrain/Documents/apps/Master-Slave/sharedData-2 -Dactivemq.logFile=broker-1 -jar /Users/javabrain/Documents/apps/Master-Slave/amq-5.8.0/bin/activemq.jar start
+  502  1054   600   0 10:05PM ttys000    0:00.00 grep activemq
+Abhijeets-MacBook-Pro:Master-Slave javabrain$ 
+```
