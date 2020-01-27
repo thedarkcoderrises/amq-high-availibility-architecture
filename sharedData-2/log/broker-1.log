@@ -1,0 +1,55 @@
+2020-01-26 13:16:23,672 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Sun Jan 26 13:16:23 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-01-26 13:16:24,229 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-1/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-01-26 13:16:24,243 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:16:24,431 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:16:24,443 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:16:24,444 | INFO  | Recovery replayed 1 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:16:24,588 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-64227-1580024784456-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:16:24,601 | INFO  | Listening for connections at: tcp://localhost:61626?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-01-26 13:16:24,601 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-26 13:16:24,602 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-64227-1580024784456-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:16:24,602 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:16:24,973 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-26 13:16:25,079 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-26 13:16:25,131 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-01-26 13:17:02,786 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-64227-1580024784456-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:17:04,653 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2020-01-26 13:17:04,658 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-1/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2020-01-26 13:17:04,658 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:17:04,658 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:17:04,659 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:17:04,704 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-64227-1580024784456-0:1) uptime 40.475 seconds | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:17:04,704 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-64227-1580024784456-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:17:04,704 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Sun Jan 26 13:16:23 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2020-01-26 13:17:04,737 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
+2020-01-27 21:24:51,494 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:24:51 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-01-27 21:24:52,072 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-1/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-01-27 21:24:52,082 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:52,264 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:52,275 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:52,276 | INFO  | Recovery replayed 3 operations from the journal in 0.008 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:52,418 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49588-1580140492287-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:52,430 | INFO  | Listening for connections at: tcp://localhost:61626?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-01-27 21:24:52,431 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:24:52,431 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61616 | org.apache.activemq.network.DiscoveryNetworkConnector | main
+2020-01-27 21:24:52,456 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:24:52,471 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-1] Started | org.apache.activemq.network.NetworkConnector | main
+2020-01-27 21:24:52,472 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49588-1580140492287-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:52,472 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:52,503 | INFO  | Network connection between vm://broker-1#0 and tcp://localhost/127.0.0.1:61616@49589(broker-1) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61616@49589, localBroker= vm://broker-1#0
+2020-01-27 21:24:52,854 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:24:52,990 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:24:53,034 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-01-27 21:26:09,253 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49588-1580140492287-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:26:09,259 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | Thread-18
+2020-01-27 21:26:09,259 | INFO  | broker-1 bridge to broker-1 stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | Thread-18
+2020-01-27 21:26:09,259 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-1] Stopped | org.apache.activemq.network.NetworkConnector | Thread-18
+2020-01-27 21:26:10,919 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-18
+2020-01-27 21:26:10,922 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-1/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-18
+2020-01-27 21:26:10,922 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:26:10,923 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:26:10,923 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:26:11,258 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49588-1580140492287-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:26:11,258 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49588-1580140492287-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:26:11,258 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:24:51 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-18
+2020-01-27 21:26:11,287 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-18

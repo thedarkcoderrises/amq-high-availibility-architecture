@@ -1,0 +1,78 @@
+2020-01-26 13:16:48,096 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Sun Jan 26 13:16:48 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-01-26 13:16:48,660 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-2/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-01-26 13:16:48,675 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:16:48,683 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-26 13:16:58,684 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-26 13:17:08,865 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:17:08,877 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:17:08,878 | INFO  | Recovery replayed 2 operations from the journal in 0.01 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-26 13:17:09,018 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-64235-1580024828891-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:17:09,030 | INFO  | Listening for connections at: tcp://localhost:61626?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-01-26 13:17:09,030 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-26 13:17:09,032 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-64235-1580024828891-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:17:09,032 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-01-26 13:17:09,372 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-26 13:17:09,470 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-26 13:17:09,515 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-01-26 13:18:37,323 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-64235-1580024828891-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:18:39,210 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2020-01-26 13:18:39,215 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-2/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2020-01-26 13:18:39,215 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:18:39,215 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:18:39,216 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-26 13:18:39,600 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-64235-1580024828891-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:18:39,600 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-64235-1580024828891-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-26 13:18:39,600 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Sun Jan 26 13:16:48 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2020-01-26 13:18:39,638 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
+2020-01-27 21:25:35,930 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:25:35 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-01-27 21:25:36,531 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-2/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-01-27 21:25:36,542 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:25:36,552 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-27 21:25:46,553 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-27 21:25:56,554 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-27 21:26:06,560 | INFO  | Database /Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock is locked... waiting 10 seconds for the database to be unlocked. Reason: java.io.IOException: File '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/kahadb/lock' could not be locked. | org.apache.activemq.store.SharedFileLocker | main
+2020-01-27 21:26:16,742 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:26:16,755 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:26:16,756 | INFO  | Recovery replayed 4 operations from the journal in 0.011 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:26:17,098 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-49627-1580140576966-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:26:17,110 | INFO  | Listening for connections at: tcp://localhost:61626?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-01-27 21:26:17,110 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:26:17,112 | INFO  | Establishing network connection from vm://broker-2?async=false&network=true to tcp://localhost:61616 | org.apache.activemq.network.DiscoveryNetworkConnector | main
+2020-01-27 21:26:17,136 | INFO  | Connector vm://broker-2 Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:26:17,153 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-2] Started | org.apache.activemq.network.NetworkConnector | main
+2020-01-27 21:26:17,154 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-49627-1580140576966-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:26:17,154 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:26:17,179 | INFO  | Network connection between vm://broker-2#0 and tcp://localhost/127.0.0.1:61616@49628(broker-1) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61616@49628, localBroker= vm://broker-2#0
+2020-01-27 21:26:17,498 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:26:17,628 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:26:17,671 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-01-27 21:27:41,291 | WARN  | Network connection between vm://broker-2#0 and tcp://localhost/127.0.0.1:61616@49628 shutdown due to a remote error: java.io.EOFException | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ Transport: tcp://localhost/127.0.0.1:61616@49628
+2020-01-27 21:27:41,294 | INFO  | Establishing network connection from vm://broker-2?async=false&network=true to tcp://localhost:61616 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:27:41,297 | INFO  | broker-2 bridge to broker-1 stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-3
+2020-01-27 21:27:41,299 | INFO  | Connector vm://broker-2 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:27:41,299 | INFO  | broker-2 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-3
+2020-01-27 21:27:41,299 | INFO  | broker-2 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-3
+2020-01-27 21:27:41,300 | WARN  | Could not start network bridge between: vm://broker-2?async=false&network=true and: tcp://localhost:61616 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:27:42,305 | INFO  | Establishing network connection from vm://broker-2?async=false&network=true to tcp://localhost:61616 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:27:42,306 | INFO  | Connector vm://broker-2 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:27:42,307 | INFO  | broker-2 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-6
+2020-01-27 21:27:42,308 | INFO  | broker-2 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-6
+2020-01-27 21:27:42,309 | INFO  | Connector vm://broker-2 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:27:42,309 | WARN  | Could not start network bridge between: vm://broker-2?async=false&network=true and: tcp://localhost:61616 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:27:44,315 | INFO  | Establishing network connection from vm://broker-2?async=false&network=true to tcp://localhost:61616 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:27:44,315 | INFO  | Connector vm://broker-2 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:27:44,317 | INFO  | broker-2 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-3
+2020-01-27 21:27:44,318 | INFO  | broker-2 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-2] Task-3
+2020-01-27 21:27:44,319 | INFO  | Connector vm://broker-2 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:27:44,319 | WARN  | Could not start network bridge between: vm://broker-2?async=false&network=true and: tcp://localhost:61616 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:27:45,521 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-49627-1580140576966-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:27:45,522 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-2] Stopped | org.apache.activemq.network.NetworkConnector | Thread-18
+2020-01-27 21:27:46,098 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-18
+2020-01-27 21:27:46,101 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/broker-2/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-18
+2020-01-27 21:27:46,101 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:27:46,101 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:27:46,102 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-18
+2020-01-27 21:27:46,416 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-49627-1580140576966-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:27:46,416 | INFO  | Apache ActiveMQ 5.8.0 (broker-2, ID:Abhijeets-MacBook-Pro.local-49627-1580140576966-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-18
+2020-01-27 21:27:46,417 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:25:35 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-18
+2020-01-27 21:27:46,450 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-18

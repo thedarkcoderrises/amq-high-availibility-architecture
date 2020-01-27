@@ -1,0 +1,89 @@
+2020-01-27 21:24:06,611 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:24:06 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2020-01-27 21:24:07,335 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-1/broker-1/tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2020-01-27 21:24:07,346 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[/Users/javabrain/Documents/apps/Master-Slave/sharedData-1/kahadb] | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:07,532 | INFO  | KahaDB is version 4 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:07,547 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:07,549 | INFO  | Recovery replayed 15 operations from the journal in 0.013 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2020-01-27 21:24:07,702 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49490-1580140447563-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:07,719 | INFO  | Listening for connections at: tcp://localhost:61616?maximumConnections=1000&wireformat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2020-01-27 21:24:07,720 | INFO  | Connector openwire Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:24:07,720 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | main
+2020-01-27 21:24:07,756 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:24:07,769 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:07,769 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | main
+2020-01-27 21:24:07,773 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:07,774 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | main
+2020-01-27 21:24:07,775 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-1] Started | org.apache.activemq.network.NetworkConnector | main
+2020-01-27 21:24:07,776 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49490-1580140447563-0:1) started | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:07,776 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2020-01-27 21:24:08,194 | INFO  | Web console type: embedded | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:24:08,350 | INFO  | ActiveMQ WebConsole initialized. | org.apache.activemq.web.WebConsoleStarter | main
+2020-01-27 21:24:08,403 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2020-01-27 21:24:08,781 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:24:08,782 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:08,783 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:08,785 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:08,785 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:08,785 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:24:10,786 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:24:10,787 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:24:10,789 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:10,790 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:10,791 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:24:10,791 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:24:14,794 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:24:14,795 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:14,795 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:14,795 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:14,796 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:14,796 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:24:22,797 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:24:22,798 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:24:22,800 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:22,802 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-2
+2020-01-27 21:24:22,803 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:24:22,803 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:24:38,803 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:24:38,804 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:38,807 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:38,808 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-1
+2020-01-27 21:24:38,809 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-1
+2020-01-27 21:24:38,809 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-1
+2020-01-27 21:25:08,809 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-2
+2020-01-27 21:25:08,810 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-2
+2020-01-27 21:25:08,825 | INFO  | Network connection between vm://broker-1#12 and tcp://localhost/127.0.0.1:61626@49594(broker-1) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61626@49594, localBroker= vm://broker-1#12
+2020-01-27 21:26:10,915 | WARN  | Network connection between vm://broker-1#12 and tcp://localhost/127.0.0.1:61626@49594 shutdown due to a remote error: java.io.EOFException | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ Transport: tcp://localhost/127.0.0.1:61626@49594
+2020-01-27 21:26:10,917 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-3
+2020-01-27 21:26:10,921 | INFO  | broker-1 bridge to broker-1 stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-3
+2020-01-27 21:26:10,923 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-3
+2020-01-27 21:26:10,924 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-3
+2020-01-27 21:26:10,924 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-3
+2020-01-27 21:26:10,925 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-3
+2020-01-27 21:26:11,925 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-4
+2020-01-27 21:26:11,926 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-4
+2020-01-27 21:26:11,928 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-6
+2020-01-27 21:26:11,930 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-6
+2020-01-27 21:26:11,931 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-4
+2020-01-27 21:26:11,931 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-4
+2020-01-27 21:26:13,936 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-3
+2020-01-27 21:26:13,937 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-3
+2020-01-27 21:26:13,938 | INFO  | broker-1 Shutting down | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-3
+2020-01-27 21:26:13,938 | INFO  | broker-1 bridge to Unknown stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | ActiveMQ BrokerService[broker-1] Task-3
+2020-01-27 21:26:13,939 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-3
+2020-01-27 21:26:13,939 | WARN  | Could not start network bridge between: vm://broker-1?async=false&network=true and: tcp://localhost:61626 due to: java.net.ConnectException: Connection refused (Connection refused) | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-3
+2020-01-27 21:26:17,944 | INFO  | Establishing network connection from vm://broker-1?async=false&network=true to tcp://localhost:61626 | org.apache.activemq.network.DiscoveryNetworkConnector | ActiveMQ Task-4
+2020-01-27 21:26:17,946 | INFO  | Connector vm://broker-1 Started | org.apache.activemq.broker.TransportConnector | ActiveMQ Task-4
+2020-01-27 21:26:17,957 | INFO  | Network connection between vm://broker-1#20 and tcp://localhost/127.0.0.1:61626@49629(broker-2) has been established. | org.apache.activemq.network.DemandForwardingBridgeSupport | triggerStartAsyncNetworkBridgeCreation: remoteBroker=tcp://localhost/127.0.0.1:61626@49629, localBroker= vm://broker-1#20
+2020-01-27 21:27:40,492 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49490-1580140447563-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-27 21:27:40,496 | INFO  | Connector vm://broker-1 Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2020-01-27 21:27:40,496 | INFO  | broker-1 bridge to broker-2 stopped | org.apache.activemq.network.DemandForwardingBridgeSupport | Thread-16
+2020-01-27 21:27:40,496 | INFO  | Network Connector DiscoveryNetworkConnector:Q:B1-NC:BrokerService[broker-1] Stopped | org.apache.activemq.network.NetworkConnector | Thread-16
+2020-01-27 21:27:41,291 | INFO  | Connector openwire Stopped | org.apache.activemq.broker.TransportConnector | Thread-16
+2020-01-27 21:27:41,295 | INFO  | PListStore:[/Users/javabrain/Documents/apps/Master-Slave/sharedData-1/broker-1/tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-16
+2020-01-27 21:27:41,295 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-27 21:27:41,295 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-27 21:27:41,295 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-16
+2020-01-27 21:27:41,412 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49490-1580140447563-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-27 21:27:41,412 | INFO  | Apache ActiveMQ 5.8.0 (broker-1, ID:Abhijeets-MacBook-Pro.local-49490-1580140447563-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-16
+2020-01-27 21:27:41,412 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@66a3ffec: startup date [Mon Jan 27 21:24:06 IST 2020]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-16
+2020-01-27 21:27:41,445 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-16
