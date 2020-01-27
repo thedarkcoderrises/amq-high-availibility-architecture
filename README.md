@@ -27,3 +27,5 @@ INFO: Starting - inspect logfiles specified in logging.properties and log4j.prop
 INFO: pidfile created : '/Users/javabrain/Documents/apps/Master-Slave/sharedData-2/activemq-broker-1.pid' (pid '1015')
 Abhijeets-MacBook-Pro:Master-Slave javabrain$ 
 ```
+
+![](Screen%20Shot%202020-01-27%20at%2010.00.51%20PM.png)
